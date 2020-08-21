@@ -1,4 +1,6 @@
 {
+  "main": "frontside/src/main.js",
+
   "name": "tutorial_crud_rest_postgresql",
   "version": "0.1.0",
   "private": true,
