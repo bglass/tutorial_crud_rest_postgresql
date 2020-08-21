@@ -1,6 +1,5 @@
 {
   "main": "frontside/src/main.js",
-
   "name": "tutorial_crud_rest_postgresql",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +12,8 @@
     "axios": "^0.20.0",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "vue-router": "^3.4.3"
+    "vue-router": "^3.4.3",
+    "webpack-bundle-tracker": "^0.4.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
