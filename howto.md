@@ -1,5 +1,7 @@
 ## Tutorial
-   [Django & PostgreSQL CRUD example | Django Rest Framework](https://bezkoder.com/django-postgresql-crud-rest-framework/#Technology)
+
+- [Backend guide](https://bezkoder.com/django-postgresql-crud-rest-framework/#Technology)
+- [Frontend guide](https://bezkoder.com/vue-js-crud-app/)
 
 - postgresql setup: [(guide)](https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e)
 
