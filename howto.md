@@ -14,4 +14,4 @@
       sudo apt install npm
       npm -g install vue
       npm -g install @vue/cli
-      vue create vue-js-client-crud
+      vue create .
