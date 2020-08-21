@@ -9,3 +9,9 @@
       create user django with encrypted password 'n4jm6vl1cEz598Y99daj';
       grant all privileges on database test_django_crudrest to django; 
 
+- vue
+
+      sudo apt install npm
+      npm -g install vue
+      npm -g install @vue/cli
+      vue create vue-js-client-crud
