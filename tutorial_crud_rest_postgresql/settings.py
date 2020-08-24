@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'test_django_crudrest',
         'USER': 'django',
         'PASSWORD': 'n4jm6vl1cEz598Y99daj',
-        'HOST': '127.0.0.1',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
@@ -135,9 +135,7 @@ STATIC_URL = '/static/'
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:8080',
-    'http://127.0.0.1:8080',
     'http://localhost:8081',
-    'http://127.0.0.1:8081',
 )
 
 STATICFILES_DIRS = [
