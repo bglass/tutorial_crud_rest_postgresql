@@ -27,7 +27,7 @@ SECRET_KEY = 'e6-e5vwb(ai8qeozv_52-%g3ls5m7ufz^!f4jhx-adgbp#a7wd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1']
+# ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -132,10 +132,12 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:8080',
     'http://localhost:8081',
+    'http://127.0.0.1:8080',
+    'http://127.0.0.1:8081',
 )
 
 STATICFILES_DIRS = [
